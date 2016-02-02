@@ -16,6 +16,41 @@ html {
   box-sizing: inherit;
 }
 
-.st0 {
+.cupid-fill {
   fill:#D42380;
+}
+
+.uk-fill1 {
+  clip-path:url(#SVGID_2_);
+  fill:#213C75;
+}
+
+.uk-fill2 {
+  clip-path:url(#SVGID_2_);
+  fill:#FFFFFF;
+}
+
+.uk-fill3 {
+  clip-path:url(#SVGID_2_);
+  fill:#E03A3E;
+}
+
+.uk-fill4 {
+  clip-path:url(#SVGID_2_);
+  fill:#DD3E44;
+}
+
+.us-fill1 {
+  clip-path:url(#SVGID_2_);
+  fill:#065BA6;
+}
+
+.us-fill2 {
+  clip-path:url(#SVGID_2_);
+  fill:#FFFFFF;
+}
+
+.us-fill3 {
+  clip-path:url(#SVGID_2_);
+  fill:#E12529;
 }
