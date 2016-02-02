@@ -17,40 +17,160 @@ html {
 }
 
 .cupid-fill {
-  fill:#D42380;
+  fill: #d42380;
 }
 
 .uk-fill1 {
-  clip-path:url(#SVGID_2_);
-  fill:#213C75;
+  clip-path: url(#SVGID_2_);
+  fill: #213c75;
 }
 
 .uk-fill2 {
-  clip-path:url(#SVGID_2_);
-  fill:#FFFFFF;
+  clip-path: url(#SVGID_2_);
+  fill: #fff;
 }
 
 .uk-fill3 {
-  clip-path:url(#SVGID_2_);
-  fill:#E03A3E;
+  clip-path: url(#SVGID_2_);
+  fill: #e03a3e;
 }
 
 .uk-fill4 {
-  clip-path:url(#SVGID_2_);
-  fill:#DD3E44;
+  clip-path: url(#SVGID_2_);
+  fill: #dd3e44;
 }
 
 .us-fill1 {
-  clip-path:url(#SVGID_2_);
-  fill:#065BA6;
+  clip-path: url(#SVGID_2_);
+  fill: #065ba6;
 }
 
 .us-fill2 {
-  clip-path:url(#SVGID_2_);
-  fill:#FFFFFF;
+  clip-path: url(#SVGID_2_);
+  fill: #fff;
 }
 
 .us-fill3 {
-  clip-path:url(#SVGID_2_);
-  fill:#E12529;
+  clip-path: url(#SVGID_2_);
+  fill: #e12529;
+}
+
+.scale-fill1 {
+  fill: #bf9e2f;
+}
+
+.scale-fill2 {
+  fill: #be1e2d;
+}
+
+.scale-fill3 {
+  fill: none;
+  stroke: #bf9e2f;
+  stroke-miterlimit: 10;
+}
+
+.scale-fill4 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.scale-fill5 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.arrow-fill1 {
+  fill: none;
+  stroke: #bf9e2f;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.arrow-fill2 {
+  fill: #be1e2d;
+}
+
+.arrow-fill3 {
+  fill: none;
+  stroke: #bf9e2f;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.kiss-fill1 {
+  fill: #edb283;
+}
+
+.kiss-fill2 {
+  fill: #603913;
+  }
+
+.kiss-fill3 {
+  fill: #fff;
+}
+
+.kiss-fill4 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.85;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.dog-fill1 {
+  fill: #452c15;
+}
+
+.dog-fill2 {
+  fill: #65431a;
+}
+
+.dog-fill3 {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 0.85;
+  stroke-miterlimit: 10;
+}
+
+.dog-fill4 {
+  stroke: #000;
+  stroke-width: 0.85;
+  stroke-miterlimit: 10;
+  }
+
+.dog-fill5 {
+  fill: #291111;
+}
+
+.couple-fill1 {
+  fill: #e9579e;
+}
+
+.couple-fill2 {
+  fill: #edb283;
+}
+
+.couple-fill3 {
+  fill: #603913;
+}
+
+.couple-fill4 {
+  fill: #fff;
+}
+
+.couple-fill5 {
+  fill: #be1e2d;
+}
+
+.couple-fill6 {
+  fill: #911a1f;
+}
+
+.couple-fill7 {
+  fill: #262262;
 }
