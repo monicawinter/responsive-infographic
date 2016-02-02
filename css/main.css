@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  background-color: #f2d2e2
+  background-color: #f2d2e2;
 }
 
 *, *::before, *::after {
@@ -20,10 +20,34 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #d42380;
 }
 
 header {
   background-color: #eda3c8;
+}
+
+h1 {
+font-family: 'Allura', cursive;
+color: white;
+}
+
+h2 {
+  font-family: 'Allura', cursive;
+  color: #d42380;
+}
+
+.h22 {
+  color: #fff;
+}
+
+h3 {
+  color: #e9579e;
+}
+
+h4 {
+  color: #fff;
 }
 
 .behind {
