@@ -22,36 +22,133 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   color: #d42380;
+  font-weight: 400;
 }
 
 header {
   background-color: #eda3c8;
+  position: relative;
+  height: 200px;
 }
 
 h1 {
-font-family: 'Allura', cursive;
-color: white;
+  font-family: 'Allura', cursive;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  font-size: 1.6em;
+  z-index: 100;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.cupid {
+  top: 0px;
+  left: 10px;
+  position: absolute;
+  width: 200px;
+
 }
 
 h2 {
   font-family: 'Allura', cursive;
   color: #d42380;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.5em;
+  margin-bottom: 0;
 }
 
 .h22 {
   color: #fff;
+  padding-top: 1em;
 }
 
 h3 {
   color: #e9579e;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.uk-heart, .us-heart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.uk-pink, .us-pink {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.kiss, .couple, .dog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.title {
+  text-align: center;
+  padding: 0.25em;
+}
+
+.number {
+  text-align: center;
+  font-weight: 700;
+  padding: 0;
+  font-size: 2em;
+}
+
+.numberp {
+  text-align: center;
+  padding-top: 0;
 }
 
 h4 {
   color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0;
+}
+
+p {
+  padding: 1em;
+  margin: 0;
+  font-size: 1em;
 }
 
 .behind {
   background-color: #eda3c8;
+}
+
+.scale {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.arrow, .arrow2, .arrow3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+}
+
+.lastp {
+  padding-bottom: 0;
 }
 
 .cupid-fill {
@@ -413,4 +510,60 @@ h4 {
 
 .st33 {
   fill: #f15a29;
+}
+
+.pinkk-fill1 {
+  fill: #d42380;
+}
+
+.pinkk-fill2 {
+  fill: #fff;
+}
+
+.pinks-fill1 {
+  fill: #d42380;
+  }
+
+.pinks-fill2 {
+  fill: #fff;
+}
+
+@media only screen and (min-width: 31em) {
+
+  h1 {
+    width: 75%;
+    top: 5px;
+    font-size: 2.5em;
+  }
+
+  .cupid {
+    width: 25%;
+    top: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 53em) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .cupid {
+    width: 215px;
+  }
+
+}
+
+@media only screen and (min-width: 69em) {
+
+  h1 {
+    font-size: 3.5em;
+    right: 60px;
+  }
+
+  .cupid {
+    left: 60px;
+  }
+
 }
