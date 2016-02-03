@@ -625,6 +625,54 @@ p {
     top: 10px;
   }
 
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+
+    .uk-heart {
+      left: 76px;
+    }
+
+    .us-heart {
+      right: 76px;
+    }
+
+    .uk-pink {
+      left: 26px;
+    }
+
+    .us-pink {
+      right: 26px;
+    }
+
+  .percent {
+    top: 130px;
+  }
+
+  .numberp {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .scale {
+    width: 250px;
+  }
+
+  .lastp {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .lastp2 {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
 }
 
 @media only screen and (min-width: 53em) {
