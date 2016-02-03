@@ -633,22 +633,21 @@ p {
     font-size: 1.5em;
   }
 
+  .uk-heart {
+    left: 76px;
+  }
 
-    .uk-heart {
-      left: 76px;
-    }
+  .us-heart {
+    right: 76px;
+  }
 
-    .us-heart {
-      right: 76px;
-    }
+  .uk-pink {
+    left: 26px;
+  }
 
-    .uk-pink {
-      left: 26px;
-    }
-
-    .us-pink {
-      right: 26px;
-    }
+  .us-pink {
+    right: 26px;
+  }
 
   .percent {
     top: 130px;
@@ -675,6 +674,34 @@ p {
 
 }
 
+@media only screen and (min-width: 39em) {
+
+  .uk-heart {
+    left: 160px;
+  }
+
+  .us-heart {
+    right: 160px;
+  }
+
+  .uk-pink {
+    left: 110px;
+  }
+
+  .us-pink {
+    right: 110px;
+  }
+
+  .percent {
+    top: 158px;
+  }
+
+  .behind {
+    top: 168px;
+  }
+
+}
+
 @media only screen and (min-width: 53em) {
 
   h1 {
@@ -683,6 +710,60 @@ p {
 
   .cupid {
     width: 215px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .title2 {
+    font-size: 1.5em;
+  }
+
+  .uk-heart {
+    width: 150px;
+  }
+
+  .us-heart {
+    width: 150px;
+  }
+
+  .uk-pink {
+    width: 250px;
+    top: 95px;
+  }
+
+  .us-pink {
+    width: 250px;
+    top: 95px;
+  }
+
+  .56 {
+    display: inline;
+    width: 33%;
+  }
+
+  .39 {
+    display: inline;
+    width: 33%;
+  }
+
+  .5 {
+    display: inline;
+    width: 33%;
+  }
+
+  .kiss, .couple, .dog {
+    display: inline;
+  }
+
+  .number {
+    text-align: left;
+  }
+
+  .numberp {
+    text-align: left;
+    width: 33%;
   }
 
 }
