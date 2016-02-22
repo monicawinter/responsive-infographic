@@ -742,28 +742,6 @@ p {
     top: 95px;
   }
 
-  .percent {
-    width: 100%;
-  }
-
-  .56 {
-    display: inline-block;
-    width: 33%;
-    float: left;
-  }
-
-  .39 {
-    display: inline-block;
-    width: 33%;
-    float: left;
-  }
-
-  .5 {
-    display: inline-block;
-    width: 33%;
-    float: right;
-  }
-
   .number {
     text-align: left;
   }
@@ -783,6 +761,25 @@ p {
 
   .cupid {
     left: 60px;
+  }
+
+  .56 {
+    display: inline-block;
+    left: 15px;
+    width: 33%;
+    top: 95px;
+  }
+
+  .39 {
+    display: inline-block;
+    left: 360px;
+    width: 33%;
+  }
+
+  .5 {
+    display: inline-block;
+    right: 15px;
+    width: 33%;
   }
 
 }
