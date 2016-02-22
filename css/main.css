@@ -584,23 +584,6 @@ p {
     right: 7px;
   }
 
-  .percent {
-    position: relative;
-    top: 100px;
-  }
-
-  .56 {
-    position: absolute;
-  }
-
-  .39 {
-    position: absolute;
-  }
-
-  .5 {
-    position: absolute;
-  }
-
   .kiss, .couple, .dog {
     width: 200px;
   }
@@ -742,12 +725,30 @@ p {
     top: 95px;
   }
 
-  .number {
-    text-align: left;
+  .percent {
+    position: relative;
   }
 
-  .numberp {
-    text-align: left;
+  .fifty {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    width: 33%;
+    top: 95px;
+  }
+
+  .thirty {
+    position: absolute;
+    display: inline-block;
+    left: 360px;
+    width: 33%;
+  }
+
+  .five {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    width: 33%;
   }
 
 }
@@ -761,25 +762,6 @@ p {
 
   .cupid {
     left: 60px;
-  }
-
-  .56 {
-    display: inline-block;
-    left: 15px;
-    width: 33%;
-    top: 95px;
-  }
-
-  .39 {
-    display: inline-block;
-    left: 360px;
-    width: 33%;
-  }
-
-  .5 {
-    display: inline-block;
-    right: 15px;
-    width: 33%;
   }
 
 }
