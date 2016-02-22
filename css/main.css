@@ -584,6 +584,11 @@ p {
     right: 7px;
   }
 
+  .percent {
+    position: relative;
+    top: 120px;
+  }
+
   .kiss, .couple, .dog {
     width: 200px;
   }
@@ -680,7 +685,7 @@ p {
   }
 
   .percent {
-    top: 158px;
+    top: 140px;
   }
 
   .behind {
@@ -697,6 +702,11 @@ p {
 
   .cupid {
     width: 215px;
+  }
+
+  .graph {
+    padding-left: 5em;
+    padding-right: 5em;
   }
 
   .title {
@@ -726,7 +736,7 @@ p {
   }
 
   .percent {
-    position: relative;
+    top: 180px;
   }
 
   .fifty {
@@ -740,7 +750,7 @@ p {
   .thirty {
     position: absolute;
     display: inline-block;
-    left: 360px;
+    left: 290px;
     width: 33%;
   }
 
@@ -750,6 +760,18 @@ p {
     right: 15px;
     width: 33%;
   }
+
+  .behind {
+    top: 500px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.thirty {
+  left: 350px;
+}
 
 }
 
@@ -762,6 +784,11 @@ p {
 
   .cupid {
     left: 60px;
+  }
+
+  .percent {
+    max-width: 1055px;
+    margin: 0 auto;
   }
 
 }
