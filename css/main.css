@@ -763,6 +763,44 @@ p {
 
   .behind {
     top: 500px;
+    position: relative;
+    height: 700px;
+  }
+
+  .sensitive {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    left: 10px;
+    top: 302px;
+  }
+
+  .appreciation {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    right: 10px;
+    top: 302px;
+  }
+
+  .lucky {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    left: 10px;
+    top: 500px;
+  }
+
+  .reciprocity {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    right: 10px;
+    top: 500px;
+  }
+
+  .arrow3 {
+    display: none;
   }
 
 }
@@ -771,6 +809,11 @@ p {
 
 .thirty {
   left: 350px;
+}
+
+.heart-uk-usd {
+  max-width: 905px;
+  margin: 0 auto;
 }
 
 }
@@ -789,6 +832,30 @@ p {
   .percent {
     max-width: 1055px;
     margin: 0 auto;
+  }
+
+  .sensitive {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5em;
+  }
+
+  .appreciation {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 5em;
+  }
+
+  .lucky {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5em;
+  }
+
+  .reciprocity {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 5em;
   }
 
 }
